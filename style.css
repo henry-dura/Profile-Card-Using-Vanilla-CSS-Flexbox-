@@ -18,9 +18,8 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url('images/bg-pattern-top.svg'),url('images/bg-pattern-bottom.svg');
     background-color:hsl(185, 75%, 39%);
-    background-position: 300px 400px, 400px 120px;
-    
-    /* background-repeat: no-repeat; */
+    background-position: top right, bottom left;
+    background-size: 10px 10px, 230px 250px;
     
 }
 
@@ -97,8 +96,6 @@ p:not(.bold){
     text-align: center;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 @media (min-width: 375px) {
     .container{
